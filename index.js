@@ -32,7 +32,7 @@ function viewCart() {
 
 function total() {
   var tot = 0;
-  cart.forEach((item) => tot += item.itemPrice )
+  cart.forEach((item) => tot += item.itemPrice)
   return tot
 }
 
