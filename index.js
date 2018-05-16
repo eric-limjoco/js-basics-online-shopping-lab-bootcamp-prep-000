@@ -23,7 +23,7 @@ function viewCart() {
   var res = 'In your cart, you have '
   
   for(var i=0; i<cart.length; i++){
-    res += `${cart[i].itemName} at ${cart[i].itemPrice}${i === cart.length - 1 ? : '.', ', '}`
+    res += `${cart[i].itemName} at ${cart[i].itemPrice}${i === (cart.length - 1) ? : '.', ', '}`
     
     if(i === cart.length - 2) res += 'and '
   }
