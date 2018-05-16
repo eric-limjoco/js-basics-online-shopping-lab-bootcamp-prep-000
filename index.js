@@ -31,7 +31,9 @@ function viewCart() {
 }
 
 function total() {
-  
+  var tot = 0;
+  cart.forEach((item) => tot += item.itemPrice )
+  return tot
 }
 
 function removeFromCart(item) {
