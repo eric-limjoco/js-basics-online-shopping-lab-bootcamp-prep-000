@@ -11,7 +11,7 @@ function setCart(c) {
 
 function addToCart(item) {
  cart.push({
-   
+   itemName: 
  })
  
  return `${item} has been added to the cart.`
